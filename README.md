@@ -23,7 +23,20 @@ I thought a little bit about different ways to accomplish this, and came up with
 
 ## Technology
 
-TBD
+I chose to try and stay as simple as possible and use only HTML, JavaScript and CSS to accomplish the simplistic goal.
+
+Structure:
+
+```
+[root]
+├── README.md  <= This file
+├── css
+│   └── styles.css <= setting the view styles
+├── favicon.ico <= an icon for the browser tab
+├── index.html  <= basic scaffold of the page
+└── js
+    └── scripts.js <= main logic for data fetching, loop to update HTML
+```
 
 ## References
 
